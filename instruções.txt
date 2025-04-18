@@ -1,0 +1,52 @@
+Requisitos
+Crie um bot com o @BotFather no Telegram:
+
+Comando: /newbot
+
+Pegue o Token do bot.
+
+Instale bibliotecas:
+
+pip install python-telegram-bot plotly kaleido
+
+Comandos disponíveis no Telegram
+
+Comando	Ação
+/start	Saudação inicial
+/saldo	Mostra o saldo atual
+/gasto	Mostra quanto pode gastar por dia
+/ultimas	Lista as últimas transações
+/grafico	Envia gráfico da evolução do saldo
+
+>>>RECURSOS EXTRAS - AGENDAMENTO DE TAREFAS - 
+ Requisitos Extras
+Instale a lib apscheduler, que agenda tarefas:
+pip install apscheduler
+
+========================================
+
+Para rodar no servidor:
+Instale as dependências:
+
+
+>>pip install plotly
+Execute o programa normalmente:
+
+
+>>python3 app.py
+O SQLite cuidará do armazenamento local. Para múltiplos usuários ou ambiente web, você 
+poderá evoluir isso para Flask/Django + PostgreSQL futuramente.
+
+*********************************
+ Requisitos
+Crie um bot com o @BotFather no Telegram:
+
+Comando: /newbot
+
+Pegue o Token do bot.
+
+Instale bibliotecas:
+
+>>>>pip install python-telegram-bot plotly kaleido
+
+
