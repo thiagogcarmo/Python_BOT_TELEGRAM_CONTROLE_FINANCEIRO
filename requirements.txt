@@ -1,0 +1,4 @@
+python-telegram-bot==20.7
+plotly==5.20.0
+kaleido==0.2.1
+apscheduler==3.10.4
